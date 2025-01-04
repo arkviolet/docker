@@ -3,7 +3,7 @@ services:
   dev:
     image: kviolet:latest
     volumes:
-      - /opt/sdk/rk3568:/opt/sdk/rk3568
+      - /opt/aarch64-buildroot-linux-gnu_sdk-buildroot:/opt/aarch64-buildroot-linux-gnu_sdk-buildroot
       - /opt/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf:/opt/gcc-linaro-5.5.0-2017.10-x86_64_arm-linux-gnueabihf
       - /opt/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf:/opt/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf
       - /home/i/.ssh:/home/developer/.ssh
