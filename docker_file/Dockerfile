@@ -31,10 +31,12 @@ RUN apt-get update && \
     libglib2.0-dev \
     gcc g++ \
     vim ack unzip bc \
-    python3 python3-pip libncurses-dev
+    python3 python3-pip libncurses-dev \
+    repo
+
 # proxy
-# ENV http_proxy=http://172.29.48.1:10809
-# ENV https_proxy=http://172.29.48.1:10809
+ENV http_proxy=http://172.29.48.1:10809
+ENV https_proxy=http://172.29.48.1:10809
 
 # cmake
 # RUN curl https://cmake.org/files/v3.24/cmake-3.24.3-linux-x86_64.sh -O

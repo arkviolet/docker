@@ -15,7 +15,7 @@ mkdir -vp $INSTALL_PREFIX_CROSS_LINUX
 ##########################################################################################
 # rk3568
 PLATFORM=rk3568
-source $sourcePath/linux_crosss_env/environment-setup.rk3568.sh
+source $sourcePath/linux_crosss_env/environment-setup.buildroot.sh
 
 # gdb
 cd $PACKAGE_COMPILE_DIR

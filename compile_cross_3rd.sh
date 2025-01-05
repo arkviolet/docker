@@ -56,7 +56,7 @@ wget https://fossies.org/linux/misc/minicom-2.9.tar.bz2
 tar -xjvf  minicom-2.9.tar.bz2 && cd minicom-2.9/
 
 # rk3568
-source $sourcePath/linux_crosss_env/environment-setup.rk3568.sh
+source $sourcePath/linux_crosss_env/environment-setup.buildroot.sh
 
 ./configure $CONFIGURE_FLAGS --prefix=$INSTALL_PREFIX_CROSS_LINUX/rk3568/minicom
 
